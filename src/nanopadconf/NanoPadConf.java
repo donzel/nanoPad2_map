@@ -17,6 +17,7 @@ public class NanoPadConf {
      */
     public static void main(String[] args) {
         String nameOfDevice = "nanoPAD2";
+        MidiHandler.listDevices();
         MidiHandler mh = new MidiHandler(nameOfDevice);
         // TODO code application logic here
     }
