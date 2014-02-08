@@ -16,6 +16,8 @@ public class NanoPadConf {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        String nameOfDevice = "nanoPAD2";
+        MidiHandler mh = new MidiHandler(nameOfDevice);
         // TODO code application logic here
     }
     
