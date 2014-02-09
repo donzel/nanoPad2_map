@@ -1,12 +1,8 @@
 nanoPad2_map
 ============
 
-Facilite le mappage  entre le nano pad et mixxx
-
-Mapping : http://www.mixxx.org/wiki/doku.php/midi_controller_mapping_file_format
-
+Prise de connaissance du midi sous java
 
 ========
 
-Va permettre par la suite d'effectuer une  couche entre des appariel midi et un appariel android
-
+par la suite evolution vers android
