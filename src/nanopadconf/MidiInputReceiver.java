@@ -31,11 +31,11 @@ public class MidiInputReceiver implements Receiver {
             ShortMessage sm = (ShortMessage) msg;
             System.out.print("Channel: " + sm.getChannel() + " ");
           if (sm.getCommand() == NOTE_ON) {
-                        int key = sm.getData1();                        
+                        String key = TOOLS.decToHex(sm.getData1());                        
                         int velocity = sm.getData2();
                         System.out.println("Note on, " + " key=" + key + " velocity: " + velocity);
                     } else if (sm.getCommand() == NOTE_OFF) {
-                        int key = sm.getData1();                       
+                        String key = TOOLS.decToHex(sm.getData1());                      
                         int velocity = sm.getData2();
                         System.out.println("Note off, "+ " key=" + key + " velocity: " + velocity);
                     } else {
